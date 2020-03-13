@@ -8,38 +8,47 @@ body {
     text-align: center;
     background-color: #681C33;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 h1 {
-    color: gold;
-    font-size: 30pt;
+    color: goldenrod;
+    font-size: 50pt;
 }
 
 .text {
-    color: #6C6061;
-    background-color: #E4BB97;
+    color: #000000;
+    background-color: goldenrod;
     font-size: 20pt;
     padding: 5px;
-    border: goldenrod 5px;
+    border: #000000 15px;
     margin: 50px;
 }
 
 .banner {
     padding: 8em 0 9em 0;
+    background-color: #000000;
+    background-image: url(audience-background.jpg);
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    opacity: 75%;
     text-align: center;
     position: relative;
+    margin-bottom: 30px;
 }
+
+
 
 .icon {
     border-radius: 4px;
-    padding: 10px;
-    width: 150px;
-    height: 150px;
-    position: relative;      
+    float: inherit;
+    margin-top: 25px;
+    margin-left: 50px;
+    padding: 100px;
+    position: relative;
+    background: transparent;
 }
 
 .container {
@@ -68,7 +77,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 25px;
     color: #681C33;
     padding-top: 20px;
     position: relative;
@@ -91,7 +100,7 @@ nav a::before {
     display: block;
     height: 7px;
     width: 0%;
-    background-color: #444;
+    background-color: #000000;
     position: absolute;
     top: 0;
 
@@ -100,4 +109,29 @@ nav a::before {
 
 nav a:hover::before {
     width: 100%;
+}
+
+#homeheader {
+    color: goldenrod;
+    background-color: rgba(128, 128, 128, 0.678);
+
+}
+
+footer {
+    text-decoration: none;
+    margin-top: 35px;
+    color: #000000
+}
+
+a {
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 14pt;
+}
+
+#logo {
+    text-align: left;
+    color: #000000;
+    font-size: 20pt;
+    padding-right: 400px;
 }
