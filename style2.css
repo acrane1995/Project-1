@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #681C33;
+}
+
+h1 {
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    color: goldenrod;
+    font-size: 50pt;
+}
+
+h2 {
+    font-weight: 400;
+    margin-top: 1rem;
+    color: goldenrod;
+    font-size: 20pt;
+}
+
+a {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.text {
+    color: goldenrod;
+    background-size: fit-content;
+    font-size: 16pt;
+    margin: 50px;
+}
+
+.banner {
+    background-image: url(audience-background.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 8em 0 9em 0;
+    margin-bottom: 35px;
+}
+
+.icons {
+    width: 200px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+.iconspace {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background: goldenrod;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Kevin Powell YouTube */
+nav {
+    float: right;
+}
+nav ul {
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+  }
+
+nav li {
+    display: inline-table;
+    margin-left: 0px;
+    color: #681C33;
+    padding-top: 10px;
+    position: relative;
+    font-size: 5pt;
+    padding-right: 10px;
+  }
+
+nav a {
+    color: #681C33;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #000000;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 7px;
+    width: 0%;
+    background-color: #681C33;
+    position: relative;
+    top: 0;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    columns: #000000;
+    width: 100%;
+}
+/* Kevin Powell YouTube*/
+
+#homeheader {
+    color: goldenrod;
+    background-color: rgba(128, 128, 128, 0.808);
+}
+
+.navbar {
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+
+#logo {
+    position: inherit;
+    align-items: left;
+    color: #681C33;
+    font-size: 16pt;
+    font-weight: 400;
+}
+
+.social {
+    position: relative;
+    align-items: center;
+    padding: 1em;
+    padding-bottom: 0rem;
+}
+
+.sociallogo {
+    margin: auto;
+    height: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    
+}
+
+#foot {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.footer {
+    padding-top: 20px;
+    margin: 0px;
+}
+
+.foottext {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.reviewbox {
+    width: 400px;
+    height: 50px;
+    color: #333333;
+    background-color: wheat;
+}
+
+button {
+    color: #000000;
+    background-color: wheat;
+    margin-top: 15px;
+}
+
+.contactbox {
+    color: #333333;
+    padding-bottom: 25px;
+}
+
+@media (min-width: 600px) {
+    
+    header {
+        display: inline-block;
+        max-height: 100px;
+        width: 100%;
+    }
+
+    .navbar {
+        max-height: 50px;
+    }
+
+    .iconspace {
+        display: inline-table;
+    }
+
+    .footer {
+        align-items: center;
+    }
+
+}
+
+@media (min-width: 650px) {
+
+    #logo {
+        padding-right: 100px;
+    }
+
+    .icons {
+        padding-bottom: 50px;
+    }
+
+}
+
+@media (min-width: 920px) {
+
+    #logo {
+        align-items: flex-start;
+        padding-right: 450px;
+    }
+
+    .icons {
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    #logo {
+        padding-right: 1000px;
+    }
+}

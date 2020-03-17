@@ -3,16 +3,19 @@
 <html>
 
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>About Us</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style2.css">
     </head>
 
     <body>
         <header>
             <div class="container">
-
-                <nav class="row">
+                <nav class="navbar">
                     <ul>
+                        <li id="logo"> T-A-C </li>
                         <li><a href="Homepage.html"> Home </a></li>
                         <li><a href="gamereviews.html"> Game Reviews </a></li>
                         <li><a href="moviereviews.html"> Movie Reviews </a></li>
@@ -26,40 +29,27 @@
             About Us!
         </h1>
         <p class="text">
-            This web application has been built for average people who want real reviews of movies, video games, and music. We
+            This website is for average people who want real reviews of movies and video games. We
             all know how we've seen a movie or game get a terrible review, but when you actually experience it for yourself
-            you enjoyed it. Critics read too much into it and everyone has their own opinions, so come voice yours to help
-            guide your fellow moviegoers, gamers, and listeners with a review from someone like them!
+            you enjoyed it. So if you want an average person's view, visit us to see if we've reviewed what you're looking for!
         </p>
 
         <p class="text">
             If you'd like to hear more from us, fill out the form below for a monthly newsletter.
         </p>
-        <p>
-            <input type="text" placeholder="First Name" name="firstname">
-        </p>
-        <p>
-            <input type="text" placeholder="Last Name">
-        </p>
-        <p>
-            <input type="text" placeholder="Email Address">
-        </p>
-        <p>
-            <input type="submit" value="Submit">
-        </p>
+        <form action="https://formspree.io/mzbveled" method="POST">
+            <div class="contactbox"><input type="text" placeholder="First Name" name="firstname"></div>
+            <div class="contactbox"><input type="text" placeholder="Last Name"></div>
+            <div class="contactbox"><input type="email" placeholder="Email Address"></div>
+            <div class="submit"><button type="submit">Send</button></div>
+        </form>
+        <footer class="footer">
+            Also visit us on facebook or twitter below!
+            <div class="social">
+                <div id="foot"> Copyright 2020</div>
+                <a href="https://www.facebook.com/The-Average-Critic-105101317786580/?modal=admin_todo_tour" class="fa fa-facebook"> <img class = "sociallogo" src="facebook.png" alt="facebook"></a>
+                <a href="https://twitter.com/AvgCritic" class="fa fa-twitter"> <img class = "sociallogo" src="twitter.png" alt="twitter"></a>
+            </div>
+        </footer>
     </body>
-
-    <footer class="footer">
-        <div class="foottext">To learn more about us</div>
-        <div class="foottext">
-        click <a id=hyperl href="about-us.html">here</a>.
-        </div class="foottext">
-        Also visit us on facebook or twitter below!
-        <div class="social">
-            <div id="foot"> Copyright 2020</div>
-            <a href="https://www.facebook.com/The-Average-Critic-105101317786580/?modal=admin_todo_tour" class="fa fa-facebook"> <img class = "sociallogo" src="facebook.png" alt="facebook"></a>
-            <a href="https://twitter.com/AvgCritic" class="fa fa-twitter"> <img class = "sociallogo" src="twitter.png" alt="twitter"></a>
-
-        </div>
-    </footer>
 </html>
