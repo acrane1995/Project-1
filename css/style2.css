@@ -70,6 +70,7 @@ a {
 
 header {
     background: goldenrod;
+    height: 100px;
 }
 
 header::after {
@@ -84,21 +85,21 @@ header::after {
 nav {
     float: right;
 }
+
 nav ul {
     margin: 10px;
     padding: 0;
     list-style: none;
-  }
+}
 
 nav li {
     display: inline-table;
     margin-left: 0px;
     color: #681C33;
-    padding-top: 10px;
+    padding-left: 10px;
     position: relative;
-    font-size: 5pt;
     padding-right: 10px;
-  }
+}
 
 nav a {
     color: #681C33;
@@ -131,6 +132,8 @@ nav a:hover::before {
 #homeheader {
     color: goldenrod;
     background-color: rgba(0, 0, 0, 0.678);
+    padding-top: 25px;
+    padding-bottom: 30px;
 }
 
 .navbar {
@@ -142,8 +145,9 @@ nav a:hover::before {
     position: inherit;
     align-items: left;
     color: #681C33;
-    font-size: 16pt;
+    font-size: 35pt;
     font-weight: 400;
+    letter-spacing: -6px;
 }
 
 .social {
@@ -184,13 +188,13 @@ nav a:hover::before {
     width: 400px;
     height: 50px;
     color: #333333;
-    background-color: wheat;
 }
 
 button {
     color: #000000;
     background-color: wheat;
     margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 .contactbox {
@@ -202,12 +206,20 @@ button {
     
     header {
         display: inline-block;
-        max-height: 100px;
         width: 100%;
     }
 
     .navbar {
         max-height: 50px;
+    }
+
+    nav li {
+        display: inline-table;
+        margin-left: 0px;
+        color: #681C33;
+        padding-left: 10px;
+        position: relative;
+        padding-right: 10px;
     }
 
     .iconspace {
@@ -236,7 +248,15 @@ button {
 
     #logo {
         align-items: flex-start;
-        padding-right: 450px;
+        padding-right: 250px;
+    }
+
+    nav li {
+        display: inline-table;
+        margin-left: 0px;
+        color: #681C33;
+        padding-left: 50px;
+        position: relative;
     }
 
     .icons {
@@ -247,6 +267,6 @@ button {
 @media (min-width: 1400px) {
 
     #logo {
-        padding-right: 1000px;
+        padding-right: 750px;
     }
 }
