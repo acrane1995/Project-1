@@ -2,4 +2,4 @@ The Average Critic is a personal website meant for myself and anyone who visits 
 
 Wireframes available at https://drive.google.com/drive/u/0/folders/1QbQxFGJhVOtJHAUhaydFyD-iwzpCyO-c
 
-Website available at https://acrane1995.github.io/Project-1/Homepage.html
+Website available at https://acrane1995.github.io/Project-1/index.html
